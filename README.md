@@ -7,4 +7,6 @@ LibraX is an identity verification platform for developers. LibraX use ML and Co
 3. How to get subscrption key? @V
 
 
-Appendix: I am thinking to use this as the example: https://github.com/auth0/lock
+Appendix: I am thinking to use this as the example: 
+1 https://github.com/auth0/lock
+2 https://github.com/flairNLP/flair
