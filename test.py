@@ -1,10 +1,10 @@
 import os, requests, base64, json
 import requests
-subscription_key = "YourSubscriptionKey"
+subscription_key = "Get Your Key at Dev.LibraX.ai"
 assert subscription_key
-FilePath = 'Your_Image_File'
-MainURL = "https://libraxai.azure-api.net/"
-TargetURL  = "https://libraxai.azure-api.net/id/verify"
+FilePath = 'Your ID Photo'
+MainURL = "https://api.librax.ai"
+TargetURL  = MainURL+"/id/verify"
 
 ENCODING = 'utf-8'
 HEADER= {"Ocp-Apim-Subscription-Key": subscription_key,
@@ -18,7 +18,9 @@ with open(FilePath, "rb") as image_file:
 
 
 base64_files = json.dumps({
-    'image': encoded_string
+    "IDPhoto": encoded_string,
+    "LastName": "Smith",
+    "FirstName": "Adam"
 })
 
 response = requests.request("POST", url=TargetURL, data=base64_files, headers=HEADER, stream=True)
