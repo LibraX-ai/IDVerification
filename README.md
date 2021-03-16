@@ -32,14 +32,9 @@ Note: Detailed response status code is documented here [dev.librax.ai](https://d
 
 `Example code` can be found [here](ID-verification-example.py)
 
-1. What is ID verification? How do we do it? @Peter maybe some example too.
-2. How to use the API? @A
-3. How to get subscrption key? @V
+## How to get the subscription key?
 
-
-
-
-
-Appendix: I am thinking to use this as the example: 
-1 https://github.com/auth0/lock
-2 https://github.com/flairNLP/flair
+1. You need register an account in https://dev.librax.ai
+2. You will get an confirmation email (it may land into your spam folder).
+3. You need login and go to "product" page. You can name your subscription and click the subscrib button there.  
+4. you can see your subscription and key token in your profile page. 
