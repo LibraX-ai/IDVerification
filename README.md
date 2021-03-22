@@ -38,3 +38,7 @@ Note: Detailed response status code is documented here [dev.librax.ai](https://d
 2. You will get an confirmation email (it may land into your spam folder).
 3. You need login and go to "product" page. You can name your subscription and click the subscrib button there.  
 4. you can see your subscription and key token in your profile page. 
+
+
+## Future roadmap:
+We are looking forward to hearing your feedback about the future roadmap. Please reach out to us.
